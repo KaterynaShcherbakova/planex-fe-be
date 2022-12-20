@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.daily-to-do {
+  width: 290px;
+  height: 674px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 90px;
+  margin-left: 2px;
+  position: absolute;
+  transform: translateX(-110%);
+  transition: 850ms;
+  background-color: #FFFFFF;
+  z-index:20;
+}
+
+.daily-to-do.list_active {
+  transform: translateX(0%);
+  transition: 350ms;
+}
+
+.to-do-list-header {
+  color: rgb(0, 0, 0);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 25%;
+
+}
+
+.left-line {
+  border-bottom: 2px solid black;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 0%;
+
+}
+
+.right-line {
+  border-bottom: 2px solid black;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 40%;
+
+}
+
+.sidebar_close_icon {
+  margin-top: 9px;
+  color: #000000;
+  position: absolute;
+  cursor: pointer;
+
+}

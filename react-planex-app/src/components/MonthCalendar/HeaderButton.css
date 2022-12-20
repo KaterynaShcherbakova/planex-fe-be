@@ -1,0 +1,117 @@
+.main_cal_header_div {
+    display: flex;
+    width: 100%;
+
+}
+
+.cal_header_nvg {
+    justify-self: flex-start;
+}
+
+.div_header_button {
+
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-top: 5px;
+
+
+}
+
+#event_add_button {
+    vertical-align: baseline;
+    position: relative;
+
+}
+
+#event_delete_button,
+#event_add_button,
+#event_change_button {
+
+    cursor: pointer;
+    z-index: 10;
+
+
+}
+
+.full_event_add_button,
+.full_event_edit_button,
+.full_event_delete_button {
+    /* position: relative; */
+    display: flex;
+    justify-content: flex-end;
+    /* max-width: 45px; */
+    /* min-width:115px; */
+    transform-origin: 100% 50%;
+    max-height: 45px;
+    cursor: pointer;
+
+}
+
+
+
+#event_add_button:hover,
+.event_add_button_hover_active:hover,
+#event_edit_button:hover,
+.event_edit_button_hover_active:hover,
+#event_delete_button:hover,
+.event_delete_button_hover_active:hover {
+    transition: 1000ms;
+    opacity: 0.6;
+}
+
+.event_add_button_hover,
+.event_edit_button_hover,
+.event_delete_button_hover {
+    background-color: #EAD7BB;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    height: 45px;
+    width: 110px;
+    border-radius: 30px;
+    display: inline-block;
+    left: 45px;
+    position: relative;
+    z-index: -10;
+    transform-origin: 100% 50%;
+}
+
+.event_delete_button_hover {
+    width: 145px;
+}
+
+.event_add_button_hover_active,
+.event_edit_button_hover_active,
+.event_delete_button_hover_active {
+    transition: all 1s;
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(0%, 0%) scaleX(1);
+
+}
+
+.event_add_button_hover_closed,
+.event_edit_button_hover_closed,
+.event_delete_button_hover_closed {
+    pointer-events: none;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0%, 0%) scaleX(0);
+}
+
+.event_button_text {
+    vertical-align: middle;
+    padding-left: 10px;
+    color: #828786;
+    line-height: 45px;
+
+}
+
+
+.full_event_edit_button_disabled,
+.full_event_delete_button_disabled {
+   
+   
+
+}

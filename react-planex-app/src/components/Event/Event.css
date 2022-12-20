@@ -1,0 +1,237 @@
+.WeekEvent,
+.MonthEvent {
+    border-radius: 8px;
+    z-index: 3;
+    width: 92%;
+    align-self: center;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: all;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+    opacity: 1;
+    align-items: center;
+    min-height: 100%;
+    height: 100%;
+
+}
+
+
+.MonthEvent_deadline {
+    background: rgba(139, 0, 0, 0.7);
+}
+
+
+.MonthEvent_basic {
+    border: 1px solid black;
+}
+
+
+.WeekEvent:hover,
+.MonthEvent:hover {
+    transform: scale(1.05);
+}
+
+.WeekEvent_hidden,
+.MonthEvent_hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.full_info_wc_event,
+.full_info_mc_event {
+    transform: translate(0%, -50%) scale(1);
+    pointer-events: all;
+    border-radius: 8px;
+    z-index: 20;
+    align-self: center;
+    position: absolute;
+    min-width: 130%;
+
+}
+
+.weekevent_icon {
+    align-self: flex-start;
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+
+}
+
+.full_info_wc_event_hidden,
+.full_info_mc_event_hidden {
+    transform: translate(0%, -50%) scale(0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wc_event_transition,
+.mc_event_transition {
+
+    transition: all 0.7s;
+    opacity: 1;
+}
+
+.wc_event_deadline {
+    border: 1px solid rgba(139, 0, 0, 0.7);
+}
+
+.mc_event_deadline {
+    background: rgb(215, 151, 151);
+    border: 1px solid rgba(139, 0, 0, 0.7);
+
+}
+
+.wc_event_basic,
+.mc_event_basic {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.full_info_weekevent_text,
+.full_info_monthevent_text {
+    font-family: 'Quicksand';
+    text-align: center;
+
+}
+
+.full_info_weekevent_evname {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.full_info_monthevent_evname {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.full_info_weekevent_notes {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.full_info_weekevent_time {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 8px;
+}
+
+.full_info_monthevent_time {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px 5px;
+}
+
+.name_weekevent_transition {
+    transition: all 0.4s;
+    opacity: 0.8;
+}
+
+.show_name_weekevent {
+
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    transform: scale(1);
+    margin: auto;
+}
+
+.show_name_weekevent:hover {
+    transform: scale(1.1);
+
+}
+
+.hide_weekevent_name {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.4s;
+}
+
+
+.MonthEvent {
+    min-width: 100%;
+    height: 5px;
+    margin-left: auto;
+
+}
+
+.mcp_events {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 60%;
+    cursor: pointer;
+    max-height: 0;
+    pointer-events: none;
+    margin-left: auto;
+    margin-right: 6px;
+}
+
+.RepeatMessage,
+.AllocationMessage {
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    min-height: 55px;
+
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    position: fixed;
+    top: 85px;
+    transition: all 1s;
+
+}
+
+.RepeatMessage {
+    min-width: 350px;
+    max-width: 450px;
+}
+
+.AllocationMessage {
+    min-width: 290px;
+    max-width: 390px;
+}
+
+.RepeatMessage_hidden {
+    transform: translateX(-100%);
+}
+
+.repeat_message_text,
+.allocation_message_text {
+    text-align: start;
+    font-size: 22px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    justify-self: flex-end;
+    user-select: none;
+}
+
+.repeat_message_text {
+    min-width: 100%;
+
+}
+
+.allocation_message_text {
+    max-width: 95%;
+}
+
+.repeat_message_icon {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: -13px;
+    z-index: 3;
+}
+
+.repeat_message_icon:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}

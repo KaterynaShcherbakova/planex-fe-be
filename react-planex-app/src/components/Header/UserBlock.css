@@ -1,0 +1,67 @@
+@media (max-width: 280px) {
+    #headerUserBlock {
+        display: none;
+    }
+}
+
+#userBlock {
+
+    width: 359px;
+    height: 135px;
+    background: #91ABA5;
+    border-radius: 0px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    z-index: -10;
+
+}
+.UB_icons{
+    margin-top: 30px;
+}
+#userBlock_elements {
+    cursor: pointer;
+}
+
+@media (max-width: 415px) {
+    #userName {
+        display: none;
+    }
+
+    #userBlock_elements {
+        justify-content: center;
+        margin-top: -30px;
+        align-items: center;
+        display: flex;
+        margin-right: 20px;
+    }
+
+}
+
+@media (min-width: 416px) {
+    #userName {
+        font-family: 'Quicksand';
+        font-size: 28px;
+    }
+
+    #userBlock_elements {
+        margin-right: 20px;
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -30px;
+
+
+    }
+}
+
+.UB_icons>img,
+.UB_icons>svg {
+    vertical-align: baseline;
+}
+
+#headerUserBlock p {
+    margin-bottom: 0;
+
+}

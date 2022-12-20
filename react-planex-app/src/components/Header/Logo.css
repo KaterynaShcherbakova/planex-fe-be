@@ -1,0 +1,75 @@
+
+
+body {
+    --lightgreen: #91aba5;
+    --lightbeige: #EAD7BB;
+
+}
+
+.circle {
+
+    clip-path: circle(50%);
+}
+
+#logo_name_header{
+    top:-30px;
+}
+
+.logo_top {
+    margin-top:20px;
+    margin-left:25px;
+    position: relative;
+    height: 50px;
+    justify-self: flex-start;
+
+}
+
+.logo_bottom{
+    height: 70px;
+    margin-top:auto;
+    margin-left:10px;
+    z-index: 51;
+    position: relative;
+    align-self: flex-start;
+
+}
+
+.logo_name {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    z-index: 3;
+    top:-20px;
+    left:0px;
+    margin:0px;
+}
+
+.big {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.small {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 40px;
+    width: 34px;
+    height: 34px;
+}
+
+#beige{
+    background-color: var(--lightbeige);
+}
+
+#green{
+    background-color: var(--lightgreen);
+
+}

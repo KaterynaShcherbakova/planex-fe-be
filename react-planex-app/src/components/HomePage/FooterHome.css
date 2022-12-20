@@ -1,0 +1,27 @@
+.icon{
+    padding-top: 1%;
+    justify-content: left;
+    text-align: left;
+}
+.icon>a{
+    padding: 10px;
+    text-decoration: none; 
+    background-color: none;
+    color: #171717;
+    font-size: 150%;
+}
+.icon>a:hover{
+    color: #91ABA5;
+}
+.footer-l{
+    background-color:#EAD6BB;
+    height: 8vh;
+    font-size: 100%;
+    font-family: Quicksand-Light, sans-serif, helvetica;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    color: #171717;
+    text-align:center;
+    margin-top: 2%;
+}
+

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.columnT {
+
+
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 756px;
+  border-right: 1px solid #000000;
+  /* margin: 10px; */
+
+}
+
+.columnTitleT {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 10px;
+
+
+}
+
+.weekly-toDoList-table{
+  display: grid;
+  margin-left: 20px;
+  margin-right: auto;
+  grid-auto-flow: column;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+  border-left: 1px solid #000000;
+}

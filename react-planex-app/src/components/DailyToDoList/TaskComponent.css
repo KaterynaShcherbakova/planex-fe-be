@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.task-component-high{
+  min-height: fit-content;
+  position:absolute;
+  left:5px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 10px;
+  background-color: rgba(241, 182, 187, 0.589);
+  border: 1px solid rgba(160, 11, 11, 0.37);
+  
+}
+
+.task-component-medium{
+  min-height: fit-content;
+  position:absolute;
+  left:5px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 10px;
+  background-color: rgba(246, 219, 121, 0.545);
+  border: 1px solid rgba(201, 175, 63, 0.523);
+
+}

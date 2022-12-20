@@ -1,0 +1,31 @@
+.weekly-calendar {
+  display: grid;
+  margin-top: 10px;
+  grid-auto-flow: column;
+  /* justify-content: center; */
+  column-gap: 1.75%;
+
+  /* align-items: flex-end; */
+
+
+}
+
+.wc_lines {
+  z-index: 5;
+  position: absolute;
+  margin-top: 66px;
+  margin-left:-60px;
+  overflow: hidden;
+  pointer-events: none;
+
+}
+
+.time_line {
+  border-bottom: 1px solid black;
+  z-index: 5;
+  min-width:max(85vw, 1060px);
+  overflow: hidden;
+  opacity: 0.3;
+  border-radius: 1px;
+  margin-bottom: 40px;
+}

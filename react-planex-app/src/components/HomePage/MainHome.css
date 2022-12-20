@@ -1,0 +1,96 @@
+.main-css {
+    position: relative;
+    background: linear-gradient(-45deg,  #B996B7,  #91ABA5, #ebce9f);
+    background-size: 400% 400%;
+    animation: gradient 60s ease infinite;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+ 
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+.text-h1 {
+    color: #171717;
+	font-size: 600%;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    padding-top: 10%;
+    text-shadow: 1px 1px white, -1px -1px #444;
+
+}
+.btn-1 {
+    margin-top: 10%;
+    padding: 10px 14%;
+}
+.btn-1:hover, .btn-2:hover{
+    background-color: white;
+    color: #171717;
+    border-color: white;
+}
+.btn-2{
+    margin-top: 2vh;
+    padding: 10px 13%;
+}
+
+.pl-img-carosel > img{
+    padding: 5% 5% 0 5%;
+    aspect-ratio: 3/2;
+}
+
+@media only screen and (max-width: 850px) {
+    .text-h1 {
+        font-size: 500%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .text-h1 {
+        font-size: 400%;
+    }
+    
+}
+.flex-items-blur-cont:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    opacity: 0;
+
+  }
+  
+  .flex-items-blur-conts:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin: 0 20px;
+   align-self: center;
+  }
+  
+  .flex-items-blur-cont:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    opacity: 0;
+  } 
+  @media only screen and (max-width: 950px) {
+    .flex-items-blur-cont:nth-child(1) {
+        height: 10vh;
+    }
+  }

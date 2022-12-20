@@ -1,0 +1,83 @@
+.planex-func-back {
+    margin-top: -7%;
+}
+.text-h2 {
+    color: #674b66;
+	font-size: 300%;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    padding-top: 12%;
+    margin-left: 20%;
+    padding-bottom: 0.5%;
+
+}
+.text-funct-h2{
+    padding-top: 1%;
+    margin-left: 15%;
+    color: #903b8c;
+	font-size: 150%;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: left;
+    text-align: left;
+}
+.text-funct{
+    padding-top: 1%;
+    margin-left: 15%;
+    color: #171717;
+	font-size: 100%;
+    font-family: Quicksand-Light, sans-serif, helvetica;
+    justify-content: left;
+    text-align: left;
+    width: 65%;
+    text-justify: initial;
+}
+.gr-box {
+    clip-path: polygon(0 85%, 100% 44%, 100% 100%, 0% 100%);
+    position: relative;
+    background: linear-gradient(-45deg,  #B996B7,  #91ABA5, #ebce9f);
+    background-size: 400% 400%;
+    animation: gradient 60s ease infinite;
+    justify-content: center;
+    min-height: 30vh;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    margin-top: -14vh;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+.pl-img-carbox-ph{
+   width: 230px;
+   position: relative;
+   border: 1px solid #171717;  
+   border-radius: 20px;
+   margin: 15% 20px 20px 30%;
+   padding: 5% 2% 2% 2%;
+   height: 500px;
+}
+.pl-img-carbox-ph:after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    background: white;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pl-img-carosel-ph > img{
+    border-radius: 20px;
+}

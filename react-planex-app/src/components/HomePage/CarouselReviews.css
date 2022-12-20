@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&display=swap');
+.car-r-bg{
+    height: 50vh;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.car-r-bg-img1{    
+    background-image: url("./img/reviews-1.jpg");
+}
+.car-r-bg-img2{    
+    background-image: url("./img/reviews-2.png");
+}
+.car-r-bg-img3{    
+    background-image: url("./img/reviews-3.jpg");
+}
+.car-r-bg-img4{    
+    background-image: url("./img/reviews-4.jpg");
+}
+.rev-bl{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    justify-self: center;
+    width: 80%;
+    color: #171717;
+    padding: 5%;
+    margin-left: 12%;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.rev-bl>h3{
+    font-size: 130%;
+    font-family: 'Kalam', cursive;
+}
+.rev-bl>p{
+    font-size: 125%;
+    font-family: 'Dancing Script', cursive;
+    color: #674b66;
+    text-align: right;
+    padding-right: 5%;
+}

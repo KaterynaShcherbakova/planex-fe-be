@@ -1,0 +1,40 @@
+.text-aboutus-h2-h{
+    color: #171717;
+	font-size: 300%;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+.text-aboutus-h2{
+    color: #171717;
+	font-size: 150%;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 200ms ease-out;
+    text-align: left;
+}
+.text-aboutus-h2:hover > hr {
+    width: 20%;
+    color: #c89748;
+}
+/*#EAD6BB;*/
+hr {
+    width: 0px;
+    height: 4px;
+    background: #c89748;
+    border:  #c89748;
+    border-radius: 3% / 50%;
+    margin: 0px;
+    transition: width 400ms ease-out;
+}
+.text-aboutus{
+    padding-top: 2%;
+    color: #171717;
+	font-size:100%;
+    font-family: Quicksand-Light, sans-serif, helvetica;
+    justify-content: left;
+    text-align: left;
+    width: 80%;
+    text-justify: initial;
+}
