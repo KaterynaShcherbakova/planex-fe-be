@@ -21,15 +21,15 @@ The application is built using **React** and **Bootstrap** on the frontend, and 
 Clone the repository: `git clone <repository_url>`
 
 ### Backend
-Navigate to the backend directory: `cd planex-be`
-Install Python dependencies: `pip install -r requirements.txt`
-Configure the database connection in the .env file.
-Run the backend server: `flask run`
+- Navigate to the backend directory: `cd planex-be`
+- Install Python dependencies: `pip install -r requirements.txt`
+- Configure the database connection in the .env file.
+- Run the backend server: `flask run`
 
 ### Frontend:
-Navigate to the frontend directory: `cd react-planex-fe`
-Install dependencies: `npm install`
-Run the development server: `npm start`
+- Navigate to the frontend directory: `cd react-planex-fe`
+- Install dependencies: `npm install`
+- Run the development server: `npm start`
 
 Open the application in your browser: `http://localhost:3000`
 
