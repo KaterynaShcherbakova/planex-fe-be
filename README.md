@@ -1,5 +1,5 @@
 # Planex App
-Planex is a versatile web application designed for personal and professional planning. 
+Planex is a web application designed for personal and professional planning. 
 It features a landing page for an overview, a task management system, and an event calendar supporting weekly and monthly views. Users can also customize their experience through a profile settings page. 
 The application is built using **React** and **Bootstrap** on the frontend, and **Flask** with **MySQL** on the backend.
 
